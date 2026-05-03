@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai  # 新しいライブラリのインポート方法
+import google.generativeai as genai# 新しいライブラリのインポート方法
 from PIL import Image
 
 # --- 設定 ---
